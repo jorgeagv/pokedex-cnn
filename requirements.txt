@@ -1,0 +1,18 @@
+# Entrenamiento e inferencia.
+tensorflow
+
+# Análisis, visualización y evaluación.
+numpy
+pandas
+matplotlib
+scipy
+scikit-learn
+
+# Descarga y procesamiento de imágenes.
+kagglehub
+Pillow
+CairoSVG
+
+# Ejecución local de los notebooks.
+jupyterlab
+ipykernel

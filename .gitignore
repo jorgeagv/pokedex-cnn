@@ -1,0 +1,32 @@
+# Entornos virtuales y configuración local.
+.venv/
+venv/
+env/
+.env
+.env.*
+!.env.example
+
+# Cachés de Python y Jupyter.
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.cache/
+
+# Datos, ejecuciones y archivos generados por los notebooks.
+pokemon_project/
+model_runs/
+prepared_runs/
+training_data/
+checkpoints/
+export/
+data/
+
+# Modelos y paquetes exportados.
+*.keras
+*.h5
+*.hdf5
+*.zip
+
+# Archivos del sistema.
+.DS_Store
+Thumbs.db
