@@ -41,23 +41,23 @@ Los datos se dividen en entrenamiento, validación y prueba mediante estratifica
 ```text
 pokedex-ai/
 ├── src/
-│   ├── 01_data_preparation.ipynb
-│   ├── 02_base_model.ipynb
-│   ├── 03_final_model.ipynb
-│   └── 04_model_predictions.ipynb
+│   ├── 01-data-preparation.ipynb
+│   ├── 02-base-model.ipynb
+│   ├── 03-final-model.ipynb
+│   └── 04-model-predictions.ipynb
 ├── README.md
-├── pokedex_cnn_report.pdf
+├── pokedex-cnn-report.pdf
 ├── requirements.txt
 └── .gitignore
 ```
 
 ### Descripción de archivos
 
-- `src/01_data_preparation.ipynb`: descarga, análisis exploratorio, validación, limpieza, división y preprocesamiento de las imágenes. Exporta el dataset preparado.
-- `src/02_base_model.ipynb`: construcción, entrenamiento, evaluación y exportación de la CNN base.
-- `src/03_final_model.ipynb`: construcción, entrenamiento por fases, evaluación y exportación de ResNet50 con la configuración seleccionada en los experimentos.
-- `src/04_model_predictions.ipynb`: carga del modelo base o final y generación de predicciones sobre imágenes nuevas.
-- `pokedex_cnn_report.pdf`: documentación del proceso, experimentos, resultados y conclusiones.
+- `src/01-data-preparation.ipynb`: descarga, análisis exploratorio, validación, limpieza, división y preprocesamiento de las imágenes. Exporta el dataset preparado.
+- `src/02-base-model.ipynb`: construcción, entrenamiento, evaluación y exportación de la CNN base.
+- `src/03-final-model.ipynb`: construcción, entrenamiento por fases, evaluación y exportación de ResNet50 con la configuración seleccionada en los experimentos.
+- `src/04-model-predictions.ipynb`: carga del modelo base o final y generación de predicciones sobre imágenes nuevas.
+- `pokedex-cnn-report.pdf`: documentación del proceso, experimentos, resultados y conclusiones.
 - `requirements.txt`: dependencias para preparar un entorno local.
 - `.gitignore`: exclusión de entornos virtuales, cachés, datos generados y modelos exportados.
 
